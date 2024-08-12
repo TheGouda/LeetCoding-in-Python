@@ -23,4 +23,4 @@ class Solution:
         return True
 
 object = Solution()
-print(object.isIsomorphic('egg','add'))
+print(object.isIsomorphic('egg','add')) #6
