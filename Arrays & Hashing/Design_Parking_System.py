@@ -5,9 +5,9 @@ class ParkingSystem:
         list_of_cars = []
         self.list_of_cars = list_of_cars
 
-        self.list_of_cars.append(big)
-        self.list_of_cars.append(medium)
-        self.list_of_cars.append(small)
+        list_of_cars.append(big)
+        list_of_cars.append(medium)
+        list_of_cars.append(small)
 
     def addCar(self, carType: int) -> bool:
 
