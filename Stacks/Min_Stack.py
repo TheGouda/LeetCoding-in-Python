@@ -16,12 +16,11 @@ class MinStack:
     def top(self) -> int:
 
         return self.stack[-1]
-    
-    def getMin(self) -> int:
+        
 
-        # return min(stack)
-        self.sett = set(self.stack)
-        return min(self.sett)
+    def getMin(self) -> int:
+        
+        return min(self.stack)
 
 
 # Your MinStack object will be instantiated and called as such:
